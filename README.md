@@ -10,3 +10,9 @@
 - Run `php artisan db:seed` to run seeders, if any.
 - Run `npm run dev`
 - Run `php artisan serve`
+
+## With Docker
+
+- Run `./vendor/bin/sail up`
+- Run `./vendor/bin/sail artisan migrate`
+- Run `./vendor/bin/sail artisan db:seed`
